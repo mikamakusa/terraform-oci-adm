@@ -2,12 +2,12 @@
 
 variable "defined_tags" {
   type    = map(string)
-  default = []
+  default = {}
 }
 
 variable "freeform_tags" {
   type    = map(string)
-  default = []
+  default = {}
 }
 
 ## MODULES ##
